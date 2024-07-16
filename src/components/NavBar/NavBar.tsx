@@ -8,7 +8,7 @@ import {
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
-import { ToggleMode } from "../ToggleMode";
+
 import { useRouter } from "next/navigation";
 
 export default function NavBar() {
@@ -37,7 +37,6 @@ export default function NavBar() {
           </SheetTrigger>
           <SheetContent side="right">
             <div className="grid gap-2 py-6">
-              <ToggleMode />
               <div
                 className="flex w-full items-center py-2 text-lg font-semibold cursor-pointer"
                 onClick={() => router.push("/")}
