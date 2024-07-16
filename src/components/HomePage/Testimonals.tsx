@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     quote:
-      "I'm impressed with the professionalism and dedication of kapil chits. They provided invaluable insights into financial planning and chit funds, ensuring I make informed decisions. Thank you for your excellent service!",
+      "I&apos;m impressed with the professionalism and dedication of kapil chits. They provided invaluable insights into financial planning and chit funds, ensuring I make informed decisions. Thank you for your excellent service!",
     name: "Jane Smith",
     title: "Impressed with Professionalism",
   },

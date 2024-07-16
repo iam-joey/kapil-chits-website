@@ -38,9 +38,10 @@ export default function Component() {
             </AccordionTrigger>
             <AccordionContent className="px-6 py-4 text-muted-foreground">
               Chit funds operate through a series of auctions, with members
-              bidding to take the pooled funds at various points in the scheme's
-              duration. The winning bidder in each auction gets the funds, and
-              this continues until every member has received their share.
+              bidding to take the pooled funds at various points in the
+              scheme&apos;s duration. The winning bidder in each auction gets
+              the funds, and this continues until every member has received
+              their share.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="pricing">
