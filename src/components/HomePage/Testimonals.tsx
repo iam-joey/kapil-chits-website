@@ -4,14 +4,14 @@ import { InfiniteMovingCards } from "../ui/movingCards";
 
 export function Testimonals() {
   return (
-    <div className="h-[400px]  rounded-md flex flex-col  antialiased  dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[400px]  rounded-md flex flex-col  antialiased   items-center justify-center relative overflow-hidden">
       <h1 className="text-4xl font-semibold font-mono text-black">
         Testimonals
       </h1>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
-        speed="normal"
+        speed="slow"
       />
     </div>
   );
